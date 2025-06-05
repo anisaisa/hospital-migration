@@ -79,7 +79,8 @@ cd hospital-migration
 
 ```bash
 python migrate_patients.py
-python migrate_rooms_enhanced.py
+python migrate_rooms.py
+python migrate_employees.py
 ```
 
 ### 3. View in MongoDB Compass
