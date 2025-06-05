@@ -100,15 +100,7 @@ python migrate_employees.py
 
 ---
 
-## 📁 File Structure
 
-```
-├── migrate_patients.py          # Patient migration + logic + audit
-├── migrate_rooms_enhanced.py   # Room migration with derived fields
-├── README.md                    # Project documentation
-```
-
----
 
 
 
