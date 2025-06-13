@@ -1,12 +1,12 @@
-# 🏥 Hospital Database Migration Project (SQL ➡️ MongoDB)
+# Hospital Database Migration Project (SQL ➡️ MongoDB)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the migration of a **Hospital Management System** from a **relational database (SQL Server)** to a **NoSQL document database (MongoDB)**. The goal is to preserve and enhance data accessibility, structure, and analysis through document embedding, derived fields, and indexing.
 
 ---
 
-## 🧱 Relational Schema (SQL Server)
+##  Relational Schema (SQL Server)
 
 ### Tables Used:
 
@@ -21,7 +21,7 @@ This project demonstrates the migration of a **Hospital Management System** from
 
 ---
 
-## 🍃 MongoDB Structure (Post-Migration)
+##  MongoDB Structure (Post-Migration)
 
 ### Collections Created:
 
@@ -29,14 +29,14 @@ This project demonstrates the migration of a **Hospital Management System** from
 * **rooms**
 * **audit\_logs** (for tracking updates)
 
-### 🔁 Embedding Strategy:
+###  Embedding Strategy:
 
 * Appointments, test reports, and bills are embedded into each `patient` document.
 * `room` documents include embedded nurse info and current patients.
 
 ---
 
-## 🧠 Data Transformations (MongoDB Side)
+##  Data Transformations (MongoDB Side)
 
 ### Patients:
 
@@ -58,7 +58,7 @@ This project demonstrates the migration of a **Hospital Management System** from
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * **SQL Server Management Studio (SSMS)** – Original relational database
 * **MongoDB & Compass** – Target NoSQL database
@@ -66,7 +66,7 @@ This project demonstrates the migration of a **Hospital Management System** from
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 ### 1. Clone or Download Repository
 
@@ -90,7 +90,7 @@ python migrate_employees.py
 
 ---
 
-## 📊 Indexes Used
+## Indexes Used
 
 * `patients.pphone` (unique)
 * `patients.has_unpaid_bills`
